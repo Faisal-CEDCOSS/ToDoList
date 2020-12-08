@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="main.js"></script>
+<title>Your ToDo List</title>
+</head>
+
+<div id="logo">
+  <img src="./logo1.jpg" alt="logo" style="width: 97%; height: 70%; border-radius: 10px;">
+</div>
+
+<div class="textArea">
+  <div id="insertTask"><h2>Add Task:</h2>
+    <input type="text" name="task" placeholder="Add your task" class="inputArea" ><button type="submit" id="insertedTask">Add to list</button>
+  </div>
+	<div id="todoList"><h2>ToDo List:</h2>
+  <p class="pendingTask"></p>
+ 
+  </div>
+  <div id="taskCompleted"><h2>Completed Task:</h2>
+  <p class="completedTask"></p>
+  
+  </div>
+</div>
+</body>
+</html>
